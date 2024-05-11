@@ -4,6 +4,9 @@ variable "instance_names" {
         # db:"t3.small",
         # backend:"t3.micro"
         # frontend:"t3.micro"
+        # db-dev="t3.small"
+        # backend-dev="t3.micro"
+        # front-dev="t3.micro"
     }
   
 }

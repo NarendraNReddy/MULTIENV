@@ -12,8 +12,8 @@ resource "aws_instance" "expense" {
     instance_type = each.value
     tags = merge(
         var.common_tags,{
-        Name=each.key
-        Module=each.key
+        Name="${each.key}"
+        Module="${each.key}"
         Environment=var.environment
     }
     )
